@@ -35,8 +35,8 @@ module.exports = function (grunt) {
                 src: ['dist/**/*.js'],
                 options: {
                     specs: ['test/**/*.spec.js'],
-                    keepRunner: true,
-                    outfile: 'test/SpecRunner.html'
+                    keepRunner: false,
+                    outfile: 'test/SpecRunner-dist.html'
                 }
             }
         }
