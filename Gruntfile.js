@@ -9,7 +9,7 @@ module.exports = function (grunt) {
             target: {
                 files: {
                     'dist/katas.js': [
-                        'src/commons.js', 'src/extend.js', 'src/listify.js'
+                        'src/commons.js', 'src/**/*.js'
                     ]
                 },
                 options: {
