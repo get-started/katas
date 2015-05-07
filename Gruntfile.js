@@ -24,7 +24,7 @@ module.exports = function (grunt) {
         },
         jasmine: {
             dev: {
-                src: ['src/**/*.js'],
+                src: ['src/**/*.js','bower_components/momentjs/min/moment-with-locales.js'],
                 options: {
                     specs: ['test/**/*.spec.js'],
                     keepRunner: true,
@@ -32,7 +32,7 @@ module.exports = function (grunt) {
                 }
             },
             product: {
-                src: ['dist/**/*.js'],
+                src: ['dist/**/*.js','bower_components/momentjs/min/moment-with-locales.js'],
                 options: {
                     specs: ['test/**/*.spec.js'],
                     keepRunner: false,
